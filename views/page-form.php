@@ -30,9 +30,8 @@ $guide_page = DOMAIN_ADMIN . 'plugin/' . $this->className();
 	margin-top: 1rem;
 }
 </style>
-<div class="alert alert-primary alert-pages-lists" role="alert">
-	<p class="m-0"><?php $L->p( "Go to the <a href='{$guide_page}'>pages lists guide</a> page." ); ?></p>
-</div>
+
+<p class="page-description"><?php $L->p( "Go to the <a href='{$guide_page}'>pages lists guide</a> page." ); ?></p>
 
 <fieldset class="mt-4">
 	<legend class="screen-reader-text mb-3"><?php $L->p( 'Sidebar List Options' ) ?></legend>
